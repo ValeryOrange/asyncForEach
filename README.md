@@ -1,6 +1,6 @@
-#Асинхронный forEach
+# Асинхронный forEach
 
-##Пример реализации
+## Пример реализации
 ```js
 console.log('Before');
 asyncForEach([1, 2, 3], function(item, index, next) {
@@ -23,6 +23,6 @@ console.log('After');
 > Done
 ```
 
-##Тесты
+## Тесты
 
 Тесты написаны по методике BDD c использованием chai и mocha.
